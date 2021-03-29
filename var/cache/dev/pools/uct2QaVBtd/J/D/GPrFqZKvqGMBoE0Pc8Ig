@@ -1,0 +1,72 @@
+<?php //App_Entity_Addressing_Country
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Addressing\\Country',
+                'id',
+                'code',
+                'provinces',
+                'enabled',
+                'name',
+                'province',
+                'createdAt',
+                'updatedAt',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'code' => $o[2],
+                    'provinces' => $o[3],
+                    'enabled' => $o[4],
+                    'name' => $o[5],
+                    'province' => $o[6],
+                    'createdAt' => $o[7],
+                    'updatedAt' => $o[8],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'admin:country:read',
+                ],
+                [
+                    'admin:country:read',
+                    'admin:country:create',
+                    'shop:country:read',
+                ],
+                [
+                    'admin:country:read',
+                    'admin:country:create',
+                    'admin:country:update',
+                    'shop:country:read',
+                ],
+                [
+                    'admin:country:read',
+                    'admin:country:create',
+                    'admin:country:update',
+                ],
+                7 => [
+                    'admin:country:read',
+                ],
+                [
+                    'admin:country:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

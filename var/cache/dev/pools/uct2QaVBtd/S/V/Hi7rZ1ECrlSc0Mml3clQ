@@ -1,0 +1,67 @@
+<?php //App_Entity_Order_OrderItemUnit
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Order\\OrderItemUnit',
+                'shipment',
+                'id',
+                'orderItem',
+                'adjustments',
+                'adjustmentsTotal',
+                'createdAt',
+                'updatedAt',
+                'stockable',
+                'shippable',
+                'taxTotal',
+                'total',
+                'adjustment',
+            ],
+            'attributesMetadata' => [
+                [
+                    'shipment' => $o[1],
+                    'id' => $o[2],
+                    'orderItem' => $o[3],
+                    'adjustments' => $o[4],
+                    'adjustmentsTotal' => $o[5],
+                    'createdAt' => $o[6],
+                    'updatedAt' => $o[7],
+                    'stockable' => $o[8],
+                    'shippable' => $o[9],
+                    'taxTotal' => $o[10],
+                    'total' => $o[11],
+                    'adjustment' => $o[12],
+                ],
+            ],
+            'groups' => [
+                2 => [
+                    'admin:order_item_unit:read',
+                    'shop:order_item_unit:read',
+                ],
+                9 => [
+                    'admin:order_item_unit:read',
+                    'shop:order_item_unit:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

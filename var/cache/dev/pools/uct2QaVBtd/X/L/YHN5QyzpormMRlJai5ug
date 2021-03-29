@@ -1,0 +1,84 @@
+<?php //App_Entity_Addressing_Zone
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Addressing\\Zone',
+                'id',
+                'code',
+                'name',
+                'type',
+                'scope',
+                'members',
+                'types',
+                'member',
+                'createdAt',
+                'updatedAt',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'code' => $o[2],
+                    'name' => $o[3],
+                    'type' => $o[4],
+                    'scope' => $o[5],
+                    'members' => $o[6],
+                    'types' => $o[7],
+                    'member' => $o[8],
+                    'createdAt' => $o[9],
+                    'updatedAt' => $o[10],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'admin:zone:read',
+                ],
+                [
+                    'admin:zone:create',
+                    'admin:zone:read',
+                ],
+                [
+                    'admin:zone:create',
+                    'admin:zone:read',
+                    'admin:zone:update',
+                ],
+                [
+                    'admin:zone:create',
+                    'admin:zone:read',
+                ],
+                [
+                    'admin:zone:create',
+                    'admin:zone:read',
+                ],
+                [
+                    'admin:zone:create',
+                    'admin:zone:read',
+                    'admin:zone:update',
+                ],
+                9 => [
+                    'admin:zone:read',
+                ],
+                [
+                    'admin:zone:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

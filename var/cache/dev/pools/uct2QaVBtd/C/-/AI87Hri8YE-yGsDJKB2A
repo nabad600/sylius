@@ -1,0 +1,71 @@
+<?php //Sylius_Component_Core_Model_ShopBillingData
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'Sylius\\Component\\Core\\Model\\ShopBillingData',
+                'id',
+                'company',
+                'taxId',
+                'countryCode',
+                'street',
+                'city',
+                'postcode',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'company' => $o[2],
+                    'taxId' => $o[3],
+                    'countryCode' => $o[4],
+                    'street' => $o[5],
+                    'city' => $o[6],
+                    'postcode' => $o[7],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+                [
+                    'admin:channel:create',
+                    'admin:shop_billing_data:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

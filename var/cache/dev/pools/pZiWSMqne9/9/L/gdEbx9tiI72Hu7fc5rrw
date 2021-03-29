@@ -1,0 +1,53 @@
+<?php //property_name_collection_b9ff812871161665831024e5078a15fb
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['ApiPlatform\\Core\\Metadata\\Property\\PropertyNameCollection'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Core\\Metadata\\Property\\PropertyNameCollection')),
+    ],
+    null,
+    [
+        'ApiPlatform\\Core\\Metadata\\Property\\PropertyNameCollection' => [
+            'properties' => [
+                [
+                    'firstName',
+                    'lastName',
+                    'localeCode',
+                    'image',
+                    'avatar',
+                    'id',
+                    'email',
+                    'emailCanonical',
+                    'username',
+                    'usernameCanonical',
+                    'salt',
+                    'plainPassword',
+                    'password',
+                    'expiresAt',
+                    'credentialsExpireAt',
+                    'lastLogin',
+                    'emailVerificationToken',
+                    'passwordResetToken',
+                    'credentialsNonExpired',
+                    'accountNonExpired',
+                    'locked',
+                    'accountNonLocked',
+                    'role',
+                    'roles',
+                    'passwordRequestNonExpired',
+                    'passwordRequestedAt',
+                    'verified',
+                    'verifiedAt',
+                    'OAuthAccounts',
+                    'OAuthAccount',
+                    'oauthAccounts',
+                    'encoderName',
+                    'createdAt',
+                    'updatedAt',
+                    'enabled',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

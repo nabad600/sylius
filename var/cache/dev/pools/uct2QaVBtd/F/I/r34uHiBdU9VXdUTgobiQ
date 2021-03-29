@@ -1,0 +1,51 @@
+<?php //App_Entity_Currency_Currency
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Currency\\Currency',
+                'id',
+                'code',
+                'createdAt',
+                'updatedAt',
+                'name',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'code' => $o[2],
+                    'createdAt' => $o[3],
+                    'updatedAt' => $o[4],
+                    'name' => $o[5],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'admin:currency:read',
+                    'shop:currency:read',
+                ],
+                [
+                    'admin:currency:read',
+                    'shop:currency:read',
+                    'shop:channel:read',
+                ],
+                5 => [
+                    'admin:currency:read',
+                    'shop:currency:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

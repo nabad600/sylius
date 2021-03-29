@@ -1,0 +1,22 @@
+/public/assets
+/public/css
+/public/js
+
+
+###> symfony/framework-bundle ###
+/.env.local
+
+
+###< symfony/framework-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+
+###< friendsofphp/php-cs-fixer ###
+
+###> phpunit/phpunit ###
+
+###< phpunit/phpunit ###
+
+###> lexik/jwt-authentication-bundle ###
+
+###< lexik/jwt-authentication-bundle ###
